@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
 import Intro  from './components/Main/Intro'
+import Services from './components/Main/Services'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
+      <Services />
     </div>
   )
 }
